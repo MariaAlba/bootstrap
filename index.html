@@ -15,12 +15,12 @@
 
     <!-- Custom css-->
     <link rel="stylesheet" href="css/styles.css">
-    
+
     <title>Inicio</title>
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
+    <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow">
         <a class="navbar-brand" href="index.html">Inicio</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
             aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -41,86 +41,75 @@
         </div>
     </nav>
 
-    <main class="container-fluid ">
+    <header class="p-2 my-3">
+        <h1 class="h1 text-center">Página de ejemplo con bootstrap</h1>
 
-        <!-- <div class="row">
-        <div class="col"> -->
+    </header>
 
-        <!-- </div>
-    </div> -->
+    <main class="container-fluid bg-light">
 
-        <div class="row">
-            <div class="col text-center">
-                <h1>Bootstrap página de ejemplo</h1>
+        <div class="row mb-5">
+            <div class="col-12 col-lg-4 text-center bg-primary text-light py-4">
+                <h2>Grid System</h2>
+
+                <p>Dividimos fila en tres columnas para todos los breakpoints</p>
+                <div class="row p-2">
+                    <div class="col marco">
+                        One of three columns
+                    </div>
+                    <div class="col marco">
+                        One of three columns
+                    </div>
+                    <div class="col marco">
+                        One of three columns
+                    </div>
+                </div>
+                <p>Dividimos fila en tres columnas a partir de breakpoint sm</p>
+                <div class="row p-2">
+                    <div class="col-sm marco">
+                        One of three columns
+                    </div>
+                    <div class="col-sm marco">
+                        One of three columns
+                    </div>
+                    <div class="col-sm marco">
+                        One of three columns
+                    </div>
+                </div>
+                
+            </div>
+            <div class="col-12 col-lg-4 text-center bg-secondary text-light py-4">
+                <h2>componentes</h2>
+                <p>Esto son alerts</p>
+                <div class="alert alert-primary" role="alert">
+                    Alerta de color azul
+                </div>
+
+                <div class="alert alert-danger" role="alert">
+                    Alerta de color rojo
+                </div>
+
+                <div class="alert alert-warning alert-dismissible fade show" role="alert">
+                    <strong>Holy guacamole!</strong> You should check in on some of those fields below.
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                
+               
+
+            </div>
+            <div class="col-12 col-lg-4 text-center bg-info text-light py-4">
+                <h2>utilidades</h2>
+                <p>Una imagen con borde redondeado</p>
+                <img src="img/cat-one.jpg" alt="gato" class="img-fluid rounded-circle m-auto">
+               
             </div>
         </div>
 
-        <section>
-            <div class="row">
-                <div class="col text-center">
-                    <h2>Grid System</h2>
-                </div>
-            </div>
-            <p>Dividimos fila en tres columnas para todos los breakpoints</p>
-            <div class="row">
-                <div class="col">
-                    One of three columns
-                </div>
-                <div class="col">
-                    One of three columns
-                </div>
-                <div class="col">
-                    One of three columns
-                </div>
-            </div>
 
 
-            <p>Dividimos fila en tres columnas a partir de breakpoint sm</p>
-            <div class="row p-2">
-                <div class="col-sm">
-                    One of three columns
-                </div>
-                <div class="col-sm">
-                    One of three columns
-                </div>
-                <div class="col-sm">
-                    One of three columns
-                </div>
-            </div>
-        </section>
 
-        <section>
-            <div class="row">
-                <div class="col text-center">
-                    <h2>componentes</h2>
-                </div>
-            </div>
-            <h3>Alerts</h3>
-            <div class="alert alert-primary" role="alert">
-                Alerta de color azul
-            </div>
-
-            <div class="alert alert-danger" role="alert">
-                Alerta de color rojo
-            </div>
-
-            <div class="alert alert-warning alert-dismissible fade show" role="alert">
-                <strong>Holy guacamole!</strong> You should check in on some of those fields below.
-                <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                    <span aria-hidden="true">&times;</span>
-                </button>
-            </div>
-
-        </section>
-
-        <section>
-            <div class="row">
-                <div class="col text-center">
-                    <h2>utilidades</h2>
-                </div>
-
-            </div>
-        </section>
 
     </main>
 

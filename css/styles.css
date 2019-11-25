@@ -1,6 +1,9 @@
 /*
     Nuestro fichero de CSS
 */
+body {
+background-color: #f8f9fa;
+}
 
 h1,h2,h3,h4,h5,h6 {
     text-transform: capitalize;
@@ -11,7 +14,7 @@ ul li {
 }
 
 main {
-  min-height: 90vh;
+  min-height: 50vh;
 }
 
 footer a{
@@ -23,12 +26,20 @@ footer a:hover {
    color: #cbd3da;
 }
 
+/* header {
+    height:50vh;
+    background-image: url("/bootstrap/img/cat-two.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+} */
 
-/* .col, .col-sm{
+.marco{
     border:1px solid #333;
     background-color: #ddd;
+    color:#333;
     padding: 20px;
-} */
+} 
 
 main:before{
     content:"Mobile first";
