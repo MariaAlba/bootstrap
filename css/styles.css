@@ -48,3 +48,12 @@ h1 {
         content:"Extra large device 1200";
     }
  } */
+
+ footer a{
+     text-decoration: none;
+     color:white;
+ }
+ footer a:hover {
+     
+    color: #cbd3da;
+ }
