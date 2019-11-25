@@ -1,0 +1,50 @@
+/*
+    Nuestro fichero de CSS
+*/
+
+h1,h2,h3,h4,h5,h6 {
+    text-transform: capitalize;
+}
+
+h1 {
+    color:teal;
+}
+
+/* main:before{
+    content:"Mobile first";
+} */
+
+/* .col, .col-sm{
+    border:1px solid #333;
+    background-color: #ddd;
+    padding: 20px;
+} */
+
+/* Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { 
+   
+    main:before{
+        content:"Small device 576";
+    }
+}*/
+
+/* Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { 
+    main:before{
+        content:"Medium device 768";
+    }
+}*/
+
+/* Large devices (desktops, 992px and up)
+@media (min-width: 992px) {
+    main:before{
+        content:"Large device 992";
+    }
+ }*/
+
+/* Extra large devices (large desktops, 1200px and up)*/
+/* @media (min-width: 1200px) {
+    main:before{
+        content:"Extra large device 1200";
+    }
+ } */
