@@ -6,13 +6,23 @@ h1,h2,h3,h4,h5,h6 {
     text-transform: capitalize;
 }
 
-h1 {
-    color:teal;
+ul li {
+    list-style: none;
 }
 
-/* main:before{
-    content:"Mobile first";
-} */
+main {
+  min-height: 90vh;
+}
+
+footer a{
+    text-decoration: none;
+    color:white;
+}
+
+footer a:hover {   
+   color: #cbd3da;
+}
+
 
 /* .col, .col-sm{
     border:1px solid #333;
@@ -20,40 +30,43 @@ h1 {
     padding: 20px;
 } */
 
-/* Small devices (landscape phones, 576px and up)
+main:before{
+    content:"Mobile first";
+} 
+
+.box {
+    width: 100px;
+    height:100px;
+    background-color: #DDD;
+    display: inline-block;
+    border:1px solid crimson;
+}
+
+/* Small devices (landscape phones, 576px and up)*/
 @media (min-width: 576px) { 
    
     main:before{
         content:"Small device 576";
     }
-}*/
+}
 
-/* Medium devices (tablets, 768px and up)
+/* Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px) { 
     main:before{
         content:"Medium device 768";
     }
-}*/
+}
 
-/* Large devices (desktops, 992px and up)
+/* Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
     main:before{
         content:"Large device 992";
     }
- }*/
+ }
 
 /* Extra large devices (large desktops, 1200px and up)*/
-/* @media (min-width: 1200px) {
+ @media (min-width: 1200px) {
     main:before{
         content:"Extra large device 1200";
     }
- } */
-
- footer a{
-     text-decoration: none;
-     color:white;
- }
- footer a:hover {
-     
-    color: #cbd3da;
- }
+ } 
