@@ -7,4 +7,4 @@ Tenemos varias páginas html donde probamos diferentes funcionalidades de este f
 - Utilidades
 - Themes
 
-![Screenshot del proyecto](https://github.com/MariaAlba/bootstrap/blob/master/screenshot.png)
+![Screenshot del proyecto](https://github.com/MariaAlba/bootstrap/blob/master/screenshot.PNG)
